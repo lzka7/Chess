@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Friend Group Chess League</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="poster">
+    <div class="k">♚</div>
+    <h1>OUR FRIEND GROUP<br>CHESS LEAGUE</h1>
+    <div class="sub">Rapid &amp; Blitz · Single Round-Robin</div>
+    <div class="players" id="players"></div>
+    <div class="tc">
+      <div class="box"><b>RAPID</b><br>10 min + 5 sec</div>
+      <div class="box"><b>BLITZ</b><br>3 min + 2 sec</div>
+    </div>
+    <div class="box"><b>SCORING</b><br>
+      Rapid: Win 4 · Draw 2 · Loss 0<br>
+      Blitz: Win 2 · Draw 1 · Loss 0<br>
+      <span class="note">Max 36 points per player</span></div>
+  </section>
+
+  <h2>League standings <span class="live">auto-ranked</span></h2>
+  <div class="scroll">
+    <table id="standings">
+      <thead>
+        <tr>
+          <th rowspan="2">Rank</th><th rowspan="2">Player</th><th rowspan="2">Games</th>
+          <th colspan="3">Rapid</th><th colspan="3">Blitz</th>
+          <th rowspan="2">Rapid Pts</th><th rowspan="2">Blitz Pts</th>
+          <th rowspan="2">Total</th><th rowspan="2">GS</th>
+        </tr>
+        <tr><th>W</th><th>D</th><th>L</th><th>W</th><th>D</th><th>L</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <p class="note">GS = game score (win = 1, draw = ½). Ties: total points → head-to-head → Rapid wins → Blitz wins → playoff.</p>
+
+  <h2>Rules</h2>
+  <div class="box"><ul>
+    <li>7 players, 7 rounds, 21 pairings. Each pairing = one Rapid + one Blitz game, colors reversed.</li>
+    <li>One bye per round (0 points). Every player gets exactly one bye.</li>
+    <li>Tie-break playoff: 3+2 Blitz; if drawn, Armageddon (White 5 min, Black 4 min, Black wins on a draw).</li>
+  </ul></div>
+
+  <h2>Round-by-round schedule</h2>
+  <p class="note">White is listed first for Rapid; colors reverse in Blitz.</p>
+  <div class="rounds" id="rounds"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
