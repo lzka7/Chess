@@ -32,14 +32,16 @@ const SCORE = { rapidWin: 4, rapidDraw: 2, blitzWin: 2, blitzDraw: 1 };
 /* =====================================================================
    BELOW THIS LINE: automatic code. No need to edit.
    ===================================================================== */
+/* Each pair is [Rapid White, Rapid Black]. Blitz is reversed automatically.
+   Every player has exactly 3 White + 3 Black in Rapid and 3 + 3 in Blitz. */
 const SCHEDULE = [
-  { bye: 0, pairs: [[1,6],[2,5],[3,4]] },
-  { bye: 4, pairs: [[0,1],[2,6],[3,5]] },
+  { bye: 0, pairs: [[6,1],[2,5],[3,4]] },
+  { bye: 4, pairs: [[0,1],[6,2],[3,5]] },
   { bye: 1, pairs: [[0,2],[3,6],[4,5]] },
   { bye: 5, pairs: [[0,3],[1,2],[4,6]] },
-  { bye: 2, pairs: [[0,4],[1,3],[5,6]] },
-  { bye: 6, pairs: [[0,5],[1,4],[2,3]] },
-  { bye: 3, pairs: [[0,6],[1,5],[2,4]] },
+  { bye: 2, pairs: [[4,0],[1,3],[5,6]] },
+  { bye: 6, pairs: [[5,0],[1,4],[2,3]] },
+  { bye: 3, pairs: [[6,0],[5,1],[2,4]] },
 ];
 const names = PLAYERS.map(p => p.name);
 
