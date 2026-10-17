@@ -11,8 +11,8 @@ const PLAYERS = [
   { name: "Lzka (muthallath)",           rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
   { name: "Zezo Hosam",                  rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
   { name: "Abdul",                       rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
-  { name: "Khaled Yasser (abo 3obayda)", rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
-  { name: "Diaa Said (QuotientKnight)",  rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
+  { name: "Khaled Yasser (abo 3obayda)", rW: 0, rD: 0, rL: 1,  bW: 0, bD: 0, bL: 0 },
+  { name: "Diaa Said (QuotientKnight)",  rW: 1, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
   { name: "Abdo Gad",                    rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
   { name: "3zz Eldeen",                  rW: 0, rD: 0, rL: 0,  bW: 0, bD: 0, bL: 0 },
 ];
