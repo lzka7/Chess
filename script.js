@@ -8,13 +8,13 @@
    (Rapid: win 4, draw 2 | Blitz: win 2, draw 1 | loss 0)
    ===================================================================== */
 const PLAYERS = [
-  { name: "Lzka (muthallath)",           rW: 0, rD: 0, rL: 1,  bW: 0, bD: 0, bL: 2 },
+  { name: "Lzka (muthallath)",           rW: 0, rD: 0, rL: 3,  bW: 0, bD: 0, bL: 3 },
   { name: "Zezo Hosam",                  rW: 1, rD: 1, rL: 0,  bW: 2, bD: 0, bL: 0 },
-  { name: "Abdul",                       rW: 0, rD: 0, rL: 2,  bW: 1, bD: 0, bL: 1 },
-  { name: "Khaled Yasser (abo 3obayda)", rW: 1, rD: 0, rL: 2,  bW: 1, bD: 2, bL: 1 },
+  { name: "Abdul",                       rW: 1, rD: 0, rL: 2,  bW: 2, bD: 0, bL: 1 },
+  { name: "Khaled Yasser (abo 3obayda)", rW: 2, rD: 0, rL: 2,  bW: 1, bD: 2, bL: 1 },
   { name: "Diaa Said (QuotientKnight)",  rW: 3, rD: 0, rL: 0,  bW: 2, bD: 0, bL: 1 },
   { name: "Abdo Gad",                    rW: 1, rD: 0, rL: 2,  bW: 0, bD: 1, bL: 2 },
-  { name: "3zz Eldeen",                  rW: 2, rD: 1, rL: 1,  bW: 2, bD: 1, bL: 1 },
+  { name: "3zz Eldeen",                  rW: 3, rD: 1, rL: 1,  bW: 3, bD: 1, bL: 1 },
 ];
 
 /* ✏️  OPTIONAL — HEAD-TO-HEAD (used only to break ties in total points)
